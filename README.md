@@ -28,3 +28,44 @@ AQI_Project/
 ├── report/                                   # Final analysis reports
 └── README.md                                 # This file
 ```
+
+## 🔄 Project Pipeline
+
+### 1. **Data Cleaning** (`1_cleaning.ipynb`)
+   - Load and inspect raw AQI data
+   - Handle missing values
+   - Remove outliers
+   - Feature engineering and preprocessing
+   - Export cleaned dataset
+
+### 2. **Exploratory Data Analysis** (`2_eda.ipynb`)
+   - Statistical summaries of AQI data
+   - Temporal trends and seasonality analysis
+   - Geographic patterns across cities
+   - Correlation analysis
+   - Visualization of key insights
+
+### 3. **ARIMA Forecasting** (`3_arima_forecast.ipynb`)
+   - Time series stationarity testing (ADF test)
+   - ARIMA parameter selection and tuning
+   - Model training and validation
+   - Generate AQI forecasts for all cities
+   - Calculate performance metrics
+
+### 4. **Prophet Forecasting** (`4_prophet_forecast.ipynb`)
+   - Prophet model implementation
+   - Handling seasonality and trends
+   - Parameter optimization
+   - Generate forecasts with confidence intervals
+   - Performance evaluation
+
+### 5. **Model Comparison** (`5_model_comparison.ipynb`)
+   - Compare ARIMA vs Prophet models
+   - Analyze MAE, RMSE, and other metrics
+   - Visual comparison of predictions
+   - Model selection and recommendations
+
+### 6. **Final Forecast** (`6_final_forecast.ipynb`)
+   - Generate final forecasts using best model
+   - Create summary statistics
+   - Produce final output files
