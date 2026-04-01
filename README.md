@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Air Quality Index (AQI) Forecasting Project
 
 ## 📋 Project Overview
@@ -12,6 +13,12 @@ This project develops and compares machine learning models to forecast Air Quali
 - Build Prophet models for time series forecasting
 - Compare model performance and select the best forecasting approach
 - Create an interactive dashboard for visualization and monitoring
+=======
+# Air-Quality-Index-AQI-Analysis-Forecasting-Indian-Cities
+
+## Objective
+To analyze historical air quality data across major Indian cities and build a forecasting model to predict future pollution levels. The project aims to uncover patterns and trends in air pollution (PM2.5, PM10, NO2, SO2, etc.) and provide actionable insights for policymakers.
+>>>>>>> 4468645a205c26753b50b729dde2755015f10899
 
 ## 📁 Project Structure
 
@@ -79,6 +86,7 @@ AQI_Project/
    - Generate final forecasts using best model
    - Create summary statistics
    - Produce final output files
+<<<<<<< HEAD
 
 ## 🚀 Getting Started
 
@@ -203,3 +211,5 @@ This project is open source and available for educational and research purposes.
 ---
 
 **Last Updated**: March 2026
+=======
+>>>>>>> 4468645a205c26753b50b729dde2755015f10899
