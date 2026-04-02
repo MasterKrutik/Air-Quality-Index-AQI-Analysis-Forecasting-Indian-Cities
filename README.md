@@ -1,24 +1,7 @@
-<<<<<<< HEAD
-# Air Quality Index (AQI) Forecasting Project
-
-## 📋 Project Overview
-
-This project develops and compares machine learning models to forecast Air Quality Index (AQI) values across multiple cities. The analysis includes data cleaning, exploratory data analysis, time series forecasting using ARIMA and Prophet models, and an interactive dashboard for visualization.
-
-## 🎯 Objectives
-
-- Clean and prepare raw air quality data for analysis
-- Perform exploratory data analysis to understand AQI trends and patterns
-- Develop ARIMA-based forecasting models for accurate AQI predictions
-- Build Prophet models for time series forecasting
-- Compare model performance and select the best forecasting approach
-- Create an interactive dashboard for visualization and monitoring
-=======
 # Air-Quality-Index-AQI-Analysis-Forecasting-Indian-Cities
 
 ## Objective
 To analyze historical air quality data across major Indian cities and build a forecasting model to predict future pollution levels. The project aims to uncover patterns and trends in air pollution (PM2.5, PM10, NO2, SO2, etc.) and provide actionable insights for policymakers.
->>>>>>> 4468645a205c26753b50b729dde2755015f10899
 
 ## 📁 Project Structure
 
@@ -46,7 +29,7 @@ AQI_Project/
 └── README.md                                 # This file
 ```
 
-## 🔄 Project Pipeline
+## Project Pipeline
 
 ### 1. **Data Cleaning** (`1_cleaning.ipynb`)
    - Load and inspect raw AQI data
@@ -86,9 +69,8 @@ AQI_Project/
    - Generate final forecasts using best model
    - Create summary statistics
    - Produce final output files
-<<<<<<< HEAD
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -131,7 +113,7 @@ Launch the Streamlit dashboard for real-time visualization:
 streamlit run dashboard/app.py
 ```
 
-## 📊 Key Results
+## Key Results
 
 - **ARIMA Model**: Time series decomposition with ARIMA(p,d,q) parameters
 - **Prophet Model**: Trend and seasonality forecasting with confidence intervals
@@ -145,7 +127,7 @@ streamlit run dashboard/app.py
 - `final_forecast.csv` - Best model forecasts
 - `model_evaluation_all_cities.csv` - Performance metrics for all models
 
-## 📈 Dashboard Features
+## Dashboard Features
 
 The Streamlit dashboard (`dashboard/app.py`) provides:
 - Interactive city selection for AQI trends
@@ -154,7 +136,7 @@ The Streamlit dashboard (`dashboard/app.py`) provides:
 - Model performance metrics display
 - Data filtering and date range selection
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python** - Programming language
 - **pandas** - Data manipulation and analysis
@@ -165,7 +147,7 @@ The Streamlit dashboard (`dashboard/app.py`) provides:
 - **Matplotlib & Seaborn** - Data visualization
 - **Streamlit** - Interactive dashboard framework
 
-## 📝 Data Dictionary
+## Data Dictionary
 
 The dataset includes the following air quality parameters:
 - **AQI** - Air Quality Index (Target variable)
@@ -174,7 +156,7 @@ The dataset includes the following air quality parameters:
 - **City** - Geographic location
 - **Date** - Temporal information
 
-## ⚙️ Model Hyperparameters
+## Model Hyperparameters
 
 ### ARIMA
 - Auto-selected (p,d,q) based on ADF test and ACF/PACF plots
@@ -185,31 +167,12 @@ The dataset includes the following air quality parameters:
 - Growth model: Linear
 - Changepoint prior scale: 0.05
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 Models evaluated using:
 - **MAE** (Mean Absolute Error)
 - **RMSE** (Root Mean Squared Error)
 - **MAPE** (Mean Absolute Percentage Error)
 
-## 🤝 Contributing
-
-Feel free to extend this project by:
-- Adding more forecasting models (LSTM, XGBoost, etc.)
-- Incorporating additional environmental features
-- Enhancing dashboard visualizations
-- Improving data preprocessing pipelines
-
-## 📞 Contact & Support
-
-For questions or issues, please refer to the notebook documentation or check the analysis results in the `report/` directory.
-
-## 📄 License
-
-This project is open source and available for educational and research purposes.
-
----
-
-**Last Updated**: March 2026
+**Last Updated**: April 2026
 =======
->>>>>>> 4468645a205c26753b50b729dde2755015f10899
